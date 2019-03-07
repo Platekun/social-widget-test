@@ -1,0 +1,14 @@
+.post {
+  & &__post-bar {
+    height: 60px;
+    background-color: tomato;
+    position: relative;
+    margin-bottom: 16px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    padding-left: 8px;
+  }
+}

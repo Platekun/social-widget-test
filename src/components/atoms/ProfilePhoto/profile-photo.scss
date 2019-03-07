@@ -1,0 +1,11 @@
+.post {
+  & &__profile-photo {
+    position: absolute;
+    top: 100%;
+    transform: translateY(-50%);
+    right: 24px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: center;
+  }
+}

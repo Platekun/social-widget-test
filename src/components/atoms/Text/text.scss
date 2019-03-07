@@ -1,0 +1,28 @@
+.post {
+  & &__text {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+
+    &--primary {
+      color: #000a12;
+    }
+
+    &--secondary {
+      opacity: 0.4;
+      font-size: 0.8rem;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:hover {
+      text-decoration: none;
+    }
+
+    a,
+    a:link,
+    a:visited {
+      color: tomato;
+    }
+  }
+}

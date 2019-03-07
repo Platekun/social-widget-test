@@ -1,0 +1,6 @@
+.post {
+  & &__post-header {
+    display: flex;
+    flex-direction: column;
+  }
+}
